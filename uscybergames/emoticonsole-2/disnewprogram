@@ -1,0 +1,719 @@
+0 #start
+1 push 999
+2 pop r0
+3 nop
+4 push 150
+5 pop r0
+6 push 000
+7 pop r1
+8 [r1] = r0
+9 jumpforward 35
+10 push 000
+11 pop r5
+12 r0 = [r5]
+13 r1 = [r5]
+14 push 000
+15 pop r4
+16 push 001
+17 pop r3
+18 r1 >>= 7
+19 r1 = r1 & r3
+20 r4 = r4 ^ r1
+21 push r0
+22 pop r1
+23 r1 >>= 5
+24 r1 = r1 & r3
+25 r4 = r4 ^ r1
+26 push r0
+27 pop r1
+28 r1 >>= 4
+29 r1 = r1 & r3
+30 r4 = r4 ^ r1
+31 push r0
+32 pop r1
+33 r1 >>= 3
+34 r1 = r1 & r3
+35 r4 = r4 ^ r1
+36 push r0
+37 pop r1
+38 r0 >>= 1
+39 r4 <<= 7
+40 r0 = r0 | r4
+41 push 000
+42 pop r1
+43 [r1] = r0
+44 return
+45 push 010
+46 pop r0
+47 push 000
+48 pop r1
+49 push r0
+50 push r1
+51 push 009
+52 pop r0
+53 call r0
+54 push 000
+55 pop r0
+56 r0 = [r0]
+57 push 028
+58 pop r1
+59 r0 = r0 ^ r1
+60 print 0
+61 push 009
+62 pop r0
+63 call r0
+64 push 000
+65 pop r0
+66 r0 = [r0]
+67 push 205
+68 pop r1
+69 r0 = r0 ^ r1
+70 print 0
+71 push 009
+72 pop r0
+73 call r0
+74 push 000
+75 pop r0
+76 r0 = [r0]
+77 push 051
+78 pop r1
+79 r0 = r0 ^ r1
+80 print 0
+81 push 009
+82 pop r0
+83 call r0
+84 push 000
+85 pop r0
+86 r0 = [r0]
+87 push 221
+88 pop r1
+89 r0 = r0 ^ r1
+90 print 0
+91 push 009
+92 pop r0
+93 call r0
+94 push 000
+95 pop r0
+96 r0 = [r0]
+97 push 244
+98 pop r1
+99 r0 = r0 ^ r1
+100 print 0
+101 push 009
+102 pop r0
+103 call r0
+104 push 000
+105 pop r0
+106 r0 = [r0]
+107 push 003
+108 pop r1
+109 r0 = r0 ^ r1
+110 print 0
+111 push 009
+112 pop r0
+113 call r0
+114 push 000
+115 pop r0
+116 r0 = [r0]
+117 push 070
+118 pop r1
+119 r0 = r0 ^ r1
+120 print 0
+121 push 009
+122 pop r0
+123 call r0
+124 push 000
+125 pop r0
+126 r0 = [r0]
+127 push 058
+128 pop r1
+129 r0 = r0 ^ r1
+130 print 0
+131 push 009
+132 pop r0
+133 call r0
+134 push 000
+135 pop r0
+136 r0 = [r0]
+137 push 121
+138 pop r1
+139 r0 = r0 ^ r1
+140 print 0
+141 push 009
+142 pop r0
+143 call r0
+144 push 000
+145 pop r0
+146 r0 = [r0]
+147 push 238
+148 pop r1
+149 r0 = r0 ^ r1
+150 print 0
+151 push 009
+152 pop r0
+153 call r0
+154 push 000
+155 pop r0
+156 r0 = [r0]
+157 push 166
+158 pop r1
+159 r0 = r0 ^ r1
+160 print 0
+161 push 009
+162 pop r0
+163 call r0
+164 push 000
+165 pop r0
+166 r0 = [r0]
+167 push 193
+168 pop r1
+169 r0 = r0 ^ r1
+170 print 0
+171 push 009
+172 pop r0
+173 call r0
+174 push 000
+175 pop r0
+176 r0 = [r0]
+177 push 022
+178 pop r1
+179 r0 = r0 ^ r1
+180 print 0
+181 push 009
+182 pop r0
+183 call r0
+184 push 000
+185 pop r0
+186 r0 = [r0]
+187 push 084
+188 pop r1
+189 r0 = r0 ^ r1
+190 print 0
+191 push 009
+192 pop r0
+193 call r0
+194 push 000
+195 pop r0
+196 r0 = [r0]
+197 push 253
+198 pop r1
+199 r0 = r0 ^ r1
+200 print 0
+201 push 009
+202 pop r0
+203 call r0
+204 push 000
+205 pop r0
+206 r0 = [r0]
+207 push 169
+208 pop r1
+209 r0 = r0 ^ r1
+210 print 0
+211 push 009
+212 pop r0
+213 call r0
+214 push 000
+215 pop r0
+216 r0 = [r0]
+217 push 088
+218 pop r1
+219 r0 = r0 ^ r1
+220 print 0
+221 push 009
+222 pop r0
+223 call r0
+224 push 000
+225 pop r0
+226 r0 = [r0]
+227 push 185
+228 pop r1
+229 r0 = r0 ^ r1
+230 print 0
+231 push 009
+232 pop r0
+233 call r0
+234 push 000
+235 pop r0
+236 r0 = [r0]
+237 push 211
+238 pop r1
+239 r0 = r0 ^ r1
+240 print 0
+241 push 009
+242 pop r0
+243 call r0
+244 push 000
+245 pop r0
+246 r0 = [r0]
+247 input r1
+248 r0 = r0 ^ r1
+249 push 191
+250 pop r1
+251 cmp r0 r1
+252 ifnot
+253 exit
+254 push 009
+255 pop r0
+256 call r0
+257 push 000
+258 pop r0
+259 r0 = [r0]
+260 input r1
+261 r0 = r0 ^ r1
+262 push 191
+263 pop r1
+264 cmp r0 r1
+265 ifnot
+266 exit
+267 push 009
+268 pop r0
+269 call r0
+270 push 000
+271 pop r0
+272 r0 = [r0]
+273 input r1
+274 r0 = r0 ^ r1
+275 push 173
+276 pop r1
+277 cmp r0 r1
+278 ifnot
+279 exit
+280 push 009
+281 pop r0
+282 call r0
+283 push 000
+284 pop r0
+285 r0 = [r0]
+286 input r1
+287 r0 = r0 ^ r1
+288 push 040
+289 pop r1
+290 cmp r0 r1
+291 ifnot
+292 exit
+293 push 009
+294 pop r0
+295 call r0
+296 push 000
+297 pop r0
+298 r0 = [r0]
+299 input r1
+300 r0 = r0 ^ r1
+301 push 237
+302 pop r1
+303 cmp r0 r1
+304 ifnot
+305 exit
+306 push 009
+307 pop r0
+308 call r0
+309 push 000
+310 pop r0
+311 r0 = [r0]
+312 input r1
+313 r0 = r0 ^ r1
+314 push 028
+315 pop r1
+316 cmp r0 r1
+317 ifnot
+318 exit
+319 push 009
+320 pop r0
+321 call r0
+322 push 000
+323 pop r0
+324 r0 = [r0]
+325 input r1
+326 r0 = r0 ^ r1
+327 push 104
+328 pop r1
+329 cmp r0 r1
+330 ifnot
+331 exit
+332 push 009
+333 pop r0
+334 call r0
+335 push 000
+336 pop r0
+337 r0 = [r0]
+338 input r1
+339 r0 = r0 ^ r1
+340 push 108
+341 pop r1
+342 cmp r0 r1
+343 ifnot
+344 exit
+345 push 009
+346 pop r0
+347 call r0
+348 push 000
+349 pop r0
+350 r0 = [r0]
+351 input r1
+352 r0 = r0 ^ r1
+353 push 236
+354 pop r1
+355 cmp r0 r1
+356 ifnot
+357 exit
+358 push 009
+359 pop r0
+360 call r0
+361 push 000
+362 pop r0
+363 r0 = [r0]
+364 input r1
+365 r0 = r0 ^ r1
+366 push 118
+367 pop r1
+368 cmp r0 r1
+369 ifnot
+370 exit
+371 push 009
+372 pop r0
+373 call r0
+374 push 000
+375 pop r0
+376 r0 = [r0]
+377 input r1
+378 r0 = r0 ^ r1
+379 push 076
+380 pop r1
+381 cmp r0 r1
+382 ifnot
+383 exit
+384 push 009
+385 pop r0
+386 call r0
+387 push 000
+388 pop r0
+389 r0 = [r0]
+390 input r1
+391 r0 = r0 ^ r1
+392 push 206
+393 pop r1
+394 cmp r0 r1
+395 ifnot
+396 exit
+397 push 009
+398 pop r0
+399 call r0
+400 push 000
+401 pop r0
+402 r0 = [r0]
+403 input r1
+404 r0 = r0 ^ r1
+405 push 050
+406 pop r1
+407 cmp r0 r1
+408 ifnot
+409 exit
+410 push 009
+411 pop r0
+412 call r0
+413 push 000
+414 pop r0
+415 r0 = [r0]
+416 input r1
+417 r0 = r0 ^ r1
+418 push 251
+419 pop r1
+420 cmp r0 r1
+421 ifnot
+422 exit
+423 push 009
+424 pop r0
+425 call r0
+426 push 000
+427 pop r0
+428 r0 = [r0]
+429 input r1
+430 r0 = r0 ^ r1
+431 push 037
+432 pop r1
+433 cmp r0 r1
+434 ifnot
+435 exit
+436 push 009
+437 pop r0
+438 call r0
+439 push 000
+440 pop r0
+441 r0 = [r0]
+442 input r1
+443 r0 = r0 ^ r1
+444 push 153
+445 pop r1
+446 cmp r0 r1
+447 ifnot
+448 exit
+449 push 009
+450 pop r0
+451 call r0
+452 push 000
+453 pop r0
+454 r0 = [r0]
+455 input r1
+456 r0 = r0 ^ r1
+457 push 161
+458 pop r1
+459 cmp r0 r1
+460 ifnot
+461 exit
+462 push 009
+463 pop r0
+464 call r0
+465 push 000
+466 pop r0
+467 r0 = [r0]
+468 input r1
+469 r0 = r0 ^ r1
+470 push 006
+471 pop r1
+472 cmp r0 r1
+473 ifnot
+474 exit
+475 push 009
+476 pop r0
+477 call r0
+478 push 000
+479 pop r0
+480 r0 = [r0]
+481 input r1
+482 r0 = r0 ^ r1
+483 push 081
+484 pop r1
+485 cmp r0 r1
+486 ifnot
+487 exit
+488 push 009
+489 pop r0
+490 call r0
+491 push 000
+492 pop r0
+493 r0 = [r0]
+494 input r1
+495 r0 = r0 ^ r1
+496 push 069
+497 pop r1
+498 cmp r0 r1
+499 ifnot
+500 exit
+501 push 009
+502 pop r0
+503 call r0
+504 push 000
+505 pop r0
+506 r0 = [r0]
+507 input r1
+508 r0 = r0 ^ r1
+509 push 111
+510 pop r1
+511 cmp r0 r1
+512 ifnot
+513 exit
+514 push 009
+515 pop r0
+516 call r0
+517 push 000
+518 pop r0
+519 r0 = [r0]
+520 input r1
+521 r0 = r0 ^ r1
+522 push 181
+523 pop r1
+524 cmp r0 r1
+525 ifnot
+526 exit
+527 push 009
+528 pop r0
+529 call r0
+530 push 000
+531 pop r0
+532 r0 = [r0]
+533 input r1
+534 r0 = r0 ^ r1
+535 push 156
+536 pop r1
+537 cmp r0 r1
+538 ifnot
+539 exit
+540 push 009
+541 pop r0
+542 call r0
+543 push 000
+544 pop r0
+545 r0 = [r0]
+546 input r1
+547 r0 = r0 ^ r1
+548 push 145
+549 pop r1
+550 cmp r0 r1
+551 ifnot
+552 exit
+553 push 009
+554 pop r0
+555 call r0
+556 push 000
+557 pop r0
+558 r0 = [r0]
+559 input r1
+560 r0 = r0 ^ r1
+561 push 002
+562 pop r1
+563 cmp r0 r1
+564 ifnot
+565 exit
+566 push 009
+567 pop r0
+568 call r0
+569 push 000
+570 pop r0
+571 r0 = [r0]
+572 input r1
+573 r0 = r0 ^ r1
+574 push 008
+575 pop r1
+576 cmp r0 r1
+577 ifnot
+578 exit
+579 push 009
+580 pop r0
+581 call r0
+582 push 000
+583 pop r0
+584 r0 = [r0]
+585 input r1
+586 r0 = r0 ^ r1
+587 push 233
+588 pop r1
+589 cmp r0 r1
+590 ifnot
+591 exit
+592 push 009
+593 pop r0
+594 call r0
+595 push 000
+596 pop r0
+597 r0 = [r0]
+598 input r1
+599 r0 = r0 ^ r1
+600 push 170
+601 pop r1
+602 cmp r0 r1
+603 ifnot
+604 exit
+605 push 009
+606 pop r0
+607 call r0
+608 push 000
+609 pop r0
+610 r0 = [r0]
+611 input r1
+612 r0 = r0 ^ r1
+613 push 026
+614 pop r1
+615 cmp r0 r1
+616 ifnot
+617 exit
+618 push 009
+619 pop r0
+620 call r0
+621 push 000
+622 pop r0
+623 r0 = [r0]
+624 push 185
+625 pop r1
+626 r0 = r0 ^ r1
+627 print 0
+628 push 009
+629 pop r0
+630 call r0
+631 push 000
+632 pop r0
+633 r0 = [r0]
+634 push 211
+635 pop r1
+636 r0 = r0 ^ r1
+637 print 0
+638 push 009
+639 pop r0
+640 call r0
+641 push 000
+642 pop r0
+643 r0 = [r0]
+644 push 175
+645 pop r1
+646 r0 = r0 ^ r1
+647 print 0
+648 push 009
+649 pop r0
+650 call r0
+651 push 000
+652 pop r0
+653 r0 = [r0]
+654 push 153
+655 pop r1
+656 r0 = r0 ^ r1
+657 print 0
+658 push 009
+659 pop r0
+660 call r0
+661 push 000
+662 pop r0
+663 r0 = [r0]
+664 push 137
+665 pop r1
+666 r0 = r0 ^ r1
+667 print 0
+668 push 009
+669 pop r0
+670 call r0
+671 push 000
+672 pop r0
+673 r0 = [r0]
+674 push 015
+675 pop r1
+676 r0 = r0 ^ r1
+677 print 0
+678 push 009
+679 pop r0
+680 call r0
+681 push 000
+682 pop r0
+683 r0 = [r0]
+684 push 219
+685 pop r1
+686 r0 = r0 ^ r1
+687 print 0
+688 push 009
+689 pop r0
+690 call r0
+691 push 000
+692 pop r0
+693 r0 = [r0]
+694 push 060
+695 pop r1
+696 r0 = r0 ^ r1
+697 print 0
+698 push 009
+699 pop r0
+700 call r0
+701 push 000
+702 pop r0
+703 r0 = [r0]
+704 push 091
+705 pop r1
+706 r0 = r0 ^ r1
+707 print 0
+708 push 009
+709 pop r0
+710 call r0
+711 push 000
+712 pop r0
+713 r0 = [r0]
+714 push 054
+715 pop r1
+716 r0 = r0 ^ r1
+717 print 0
+718 exit
